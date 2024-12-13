@@ -3,25 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="/src/styles.css">
 	<title>Document</title>
 </head>
 <body>
 	<div id="app">
-		<div>
+		<div class="layout">
 			<h2 class="original"></h2>
 			<h2 class="translated"></h2>
 
 
 			<div class="show-container">
-				<button class="show-button">Mostrar</button>
+				<button class="button-6 show-button">Mostrar</button>
 			</div>
 
 			<div class="options-container">
-				<button class="fail" name="fail">Fallo</button>
-				<button class="success" name="success">Acierto</button>
-				<span class="score"></span>
+				<div class="options">
+					<button class="button-6 fail" name="fail">Fallo</button>
+					<button class="button-6 success" name="success">Acierto</button>
+				</div>
 			</div>
+			<span class="score"></span>
+
 			<p></p>
 		</div>
 	</div>
